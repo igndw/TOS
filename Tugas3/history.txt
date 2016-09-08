@@ -1,0 +1,160 @@
+    1  ls
+    2  mkdir Tugas1
+    3  cd Tugas1
+    4  cp ../hello.md
+    5  cd 
+    6  git clone https://github.com/igndw/TOS.git
+    7  git config --global user.name "igndw"
+    8  git config --global user.email "ignatiusdwihan@gmail.com"
+    9  git status
+   10  list
+   11  ls
+   12  cd TOS
+   13  git status
+   14  mkdir Tugas1
+   15  cd Tugas1
+   16  cp ../hello.md
+   17  ls
+   18  ls -al
+   19  ls 
+   20  cat hello.md
+   21  cat > hello.md
+   22  cat hello.md
+   23  cat hello.md ../hello.md > text.txt
+   24  cat hello.md../hello.md>text.txt
+   25  cat hello.md../hello.md
+   26  cat hello.md ../hello.md
+   27  cat hello.md ../hello.md > text.txt
+   28  tail text.txt
+   29  history
+   30  git add
+   31  git add Tugas1
+   32  cd
+   33  ls -al
+   34  cd TOS
+   35  ls -al
+   36  cd Tugas1
+   37  ls -al
+   38  git add *
+   39  git status
+   40  git commit -m "Tugas1/.Filesystem_Filehandling"
+   41  git push
+   42  update-alternatives --config x-www-browser
+   43  update-alternatives --config www-browser
+   44  sr google raspberry pi
+   45  wget --help
+   46  wget "http://detik.com"
+   47  ls
+   48  cat index.html
+   49  clear
+   50  cat index.html
+   51  clear
+   52  cat index.html
+   53  clear
+   54  curl --help
+   55  curl http://detik.com/ | wc -l
+   56  ls
+   57  ssh-keygen -t rsa -b 4096 -C "ignatiusdwihan@gmail.com"
+   58  ls -la
+   59  cd .ssh
+   60  dir
+   61  cd id_rsa
+   62  cat id_rsa
+   63  clear
+   64  chmod 0700 ~/.ssh
+   65  touch ~/.ssh/authorized_keys
+   66  chmod 0644 ~/.ssh/autorized_keys
+   67  cd 
+   68  ls -al
+   69  touch ~/.ssh/authorized_keys
+   70  chmod 0644 ~/.ssh/autorized_keys
+   71  cd .ssh
+   72  ls
+   73  cat authorized_keys
+   74  sudo vim ~/.ssh/authorized_keys
+   75  cd 
+   76  ls -al
+   77  cd TOS
+   78  ls -al
+   79  mkdir tugas2
+   80  ls -al
+   81  cd tugas2
+   82  cat > coba2.md
+   83  git add *
+   84  git status
+   85  git commit -m"tugas2/.filesystem_filehandling"
+   86  git push
+   87  cd ..
+   88  ls -al
+   89  mkdir Tugas3
+   90  cd Tugas3
+   91  echo hello
+   92  echo hello > file
+   93  cat file
+   94  rm file
+   95  ls -al
+   96  history
+   97  clear
+   98  awk '{print FNR "\t" $0}'
+   99  ls -al
+  100  awk "{for (i = 1; i<=NF; i++) if ($i < 0) $i = -$i; print}'
+1 2 3 4 5 -2 -3 -4
+1 2 3 4 5 2 3 4
+
+  101  cat > makanan.csv
+  102  cat makanan.csv
+  103  cat file_owner.sh
+  104  ls
+  105  ls -al
+  106  cat > file_owner.sh
+  107  awk 'BEGIN {print "mulai"} {print} END {print"selesai"}
+  108  set
+  109  clear
+  110  history
+  111  ls -al
+  112  cat file_owner.sh
+  113  man --help
+  114  man
+  115  ls -al
+  116  vim makanan.csv
+  117  sed 's/ayam/empal/' < makanan.csv
+  118  sed 's/tek/empal/' < makanan.csv
+  119  sed 's/tek/empal/' < makanan.csv > makanan.csv
+  120  cat makanan.csv
+  121  vim makanan.csv
+  122  sed 's/tek/empal/' < makanan.csv
+  123  cat makanan.csv
+  124  sed 's/tek/empal/'  makanan.csv
+  125  sed 's/tek/empal/'  makanan.csv > text.txt
+  126  tail text.txt
+  127  head text.txt
+  128  cat text.txt
+  129  ls -al
+  130  cat makanan.csv
+  131  rm .makanan.csv.swo
+  132  rm .makanan.csv.swp
+  133  ls -al
+  134  cat file_owner.sh
+  135  cat text.txt
+  136  cat > makan.md
+  137  cat makan.md
+  138  sed 's/tek/empal/' <  makan.md
+  139  sed 's/ayam/mujair/' <  makan.md
+  140  sed 's/ayam/mujair/'  makan.md < makan2.txt
+  141  ls -al
+  142  rm text.txt
+  143  rm makanan.csv
+  144  cat makan.md
+  145  sed 's/ayam/mujair/'  makan.md < makan2.txt
+  146* 
+  147  sed 's/ayam/mujair/'  makan.md > makan2.txt
+  148  ls -al
+  149  cat makan2.txt
+  150  history -w ~/history.txt
+  151  vim ~/history.txt
+  152  git add *
+  153  git status
+  154  ls -al
+  155  history -a
+  156  ls -al
+  157  history > history.txt

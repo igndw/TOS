@@ -1,0 +1,6 @@
+tahu_tek 10000
+tahu_telor 10000
+nasi_mujair 10000
+mujair_penyet 10000
+gado_gado 10000
+pecel_lele 10000
